@@ -18,7 +18,7 @@ def setup_database():
 
     if os.path.exists(DB_NAME):
         os.remove(DB_NAME)
-        print(f"🧹 Existing database {DB_NAME} deleted for fresh setup.")
+        print(f" Existing database {DB_NAME} deleted for fresh setup.")
         
     conn = sqlite3.connect(DB_NAME)
     cursor = conn.cursor()
