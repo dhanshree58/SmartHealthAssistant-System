@@ -38,7 +38,7 @@ def check_database():
         conn.close()
         
     except Exception as e:
-        print(f"❌ ERROR: {e}")
+        print(f" ERROR: {e}")
 
 if __name__ == "__main__":
     check_database()
